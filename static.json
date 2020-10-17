@@ -1,8 +1,8 @@
 {
    "headers": {
       "/*": {
-         "X-Author": "azubakin"
-         
+         "X-Author": "azubakin",
+         "Access-Control-Allow-Origin": "*"
       }
    }
 }
