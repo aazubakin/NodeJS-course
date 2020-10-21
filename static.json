@@ -1,7 +1,13 @@
 {
    "headers": {
+       "/*": {
+           "X-Author": "azubakin","
+           "Access-Control-Allow-Origin": "*"
+       },
       "/login/": {
-               "text": "azubakin",
+               "Access-Control-Allow-Origin": "*"
+      },
+      "/sample/": {
                "Access-Control-Allow-Origin": "*"
       }
    }
