@@ -1,5 +1,5 @@
-function task(x) { <br>
-   const promise1 = new Promise((resolve, reject) =>  x &lt; 18 ? reject('no') : resolve ('yes'));
+function task(x) { 
+   const promise1 = new Promise((resolve, reject) =>  x < 18 ? reject('no') : resolve ('yes'));
    promise1.catch(e => console.log(e));
-   return promise1;  <br>
+   return promise1;  
 }
