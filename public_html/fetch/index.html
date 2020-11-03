@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>fetch</title>
+</head>
+<body>
+      <input type="text" id="inp">
+      <button id="bt">Press here</button> 
+</body>
+<script>
+   
+   async function getResult () {
+      const url = document.getElementById('inp');
+      console.log(url.value);
+      const res = await fetch(url);
+      url.value = res; 
+      //console.log(res.json);
+   };
+   document.querySelector('button').addEventListener('click', getResult);
+</script>
+</html>

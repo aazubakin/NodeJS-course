@@ -9,6 +9,12 @@
        },
        "/sample/": {
            "Access-Control-Allow-Origin": "*"
+       },
+       "/promise/": {
+           "Access-Control-Allow-Origin": "*"
+       },
+       "/fetch/": {
+           "Access-Control-Allow-Origin": "*"
        }
    }
 }
