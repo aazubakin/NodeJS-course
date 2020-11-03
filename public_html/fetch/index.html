@@ -13,8 +13,8 @@
    
    async function getResult () {
       const url = document.getElementById('inp');
-      const res = await fetch(url);
-      url.value = res.text(); 
+      const res = await fetch(url.value);
+      url.value = await res.text(); 
    };
    document.querySelector('button').addEventListener('click', getResult);
 </script>
