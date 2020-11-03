@@ -15,7 +15,7 @@
       const url = document.getElementById('inp');
       console.log(url.value);
       const res = await fetch(url);
-      url.value = res; 
+      url.value = res.text(); 
       //console.log(res.json);
    };
    document.querySelector('button').addEventListener('click', getResult);
