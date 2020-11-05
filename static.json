@@ -15,6 +15,14 @@
        },
        "/fetch/": {
            "Access-Control-Allow-Origin": "*"
+       },
+       "/result4/": {
+           "Access-Control-Allow-Origin": "*",
+           "name": "first_node_demo",
+            "type": "module",
+            "version": "1.0.0",
+            "main": "index.js",
+            "license": "MIT"
        }
    }
 }
