@@ -8,4 +8,4 @@ const s = Server((req, res) => {
     }
     res.end();
 });
-s.listen(4321);
+s.listen();

@@ -12,4 +12,4 @@ var s = (0, _http.Server)(function (req, res) {
 
   res.end();
 });
-s.listen(4321);
+s.listen();
